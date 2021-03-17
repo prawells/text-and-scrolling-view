@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.example.textandscrolling.MainActivity">
 
     <TextView
         android:id="@+id/article_heading"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/teal_200"
+        android:background="@color/purple_700"
         android:padding="@dimen/padding_regular"
         android:text="@string/article_title"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textAppearance=
+            "@android:style/TextAppearance.DeviceDefault.Large"
         android:textColor="@android:color/white"
         android:textStyle="bold" />
 
@@ -22,19 +22,24 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/article_heading"
         android:padding="@dimen/padding_regular"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
-        android:textStyle="bold"
         android:text="@string/article_subtitle"
-        />
+        android:textAppearance=
+            "@android:style/TextAppearance.DeviceDefault" />
 
-    <TextView
-        android:id="@+id/article"
+    <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_regular"
-        android:lineSpacingExtra="@dimen/line_spacing"
-        android:layout_below="@id/article_subheading"
-        android:justificationMode="inter_word"
-        android:text="@string/article_text"/>
+        android:layout_below="@id/article_subheading">
+
+        <TextView
+            android:id="@+id/article"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:lineSpacingExtra="@dimen/line_spacing"
+            android:padding="@dimen/padding_regular"
+            android:text="@string/article_text" />
+
+    </ScrollView>
 
 </RelativeLayout>
