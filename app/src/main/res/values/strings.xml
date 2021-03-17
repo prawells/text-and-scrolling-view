@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">text and scrolling</string>
+    <string name="app_name">Scrolling Text</string>
+    <string name="article_title">GNR</string>
+    <string name="article_subtitle">90\'s Grunge Sensation</string>
+    <string name="article_text"><b>Gun n roses</b>
+        Guns N Roses, often abbreviated as GNR, is an American hard rock band from Los Angeles,
+        California, formed in 1985. When they signed to Geffen Records in 1986, the band
+        comprised vocalist Axl Rose, lead guitarist Slash, rhythm guitarist Izzy Stradlin,
+        bassist Duff McKagan, and drummer Steven Adler. The current lineup consists of Rose,
+        Slash, McKagan, guitarist Richard Fortus, drummer Frank Ferrer and keyboardists Dizzy Reed and Melissa Reese.
+        \n \n
+        In the late 1980s, GNR established itself as part of the Seattle https://en.wikipedia.org/wiki/Grunge scene, releasing its first album,
+        Bleach, for the independent record label Sub Pop in 1989. They developed a sound that relied on dynamic contrasts,
+        often between quiet verses and loud, heavy choruses. After signing to major label DGC Records in 1991, Nirvana found unexpected mainstream success with https://en.wikipedia.org/wiki/Smells_Like_Teen_Spirit,
+        the first single from their landmark second album Nevermind (1991). A cultural phenomenon of the 1990s,
+        the album went on to be certified Diamond by the RIAA and is often credited for ending the dominance of hair metal.
+        \n \n
+    Characterized by their punk aesthetic, fusion of pop melodies with noise, combined with their themes of abjection and social alienation,
+        brought them global popularity. Following extensive tours and the 1992 compilation album Incesticide and EP Hormoaning,
+        the band released their abrasive and less mainstream sounding third studio album, In Utero (1993). The album topped both the US and UK album charts, and was acclaimed by critics.
+        Nirvana disbanded following Cobain\'s suicide in April 1994. Various posthumous releases have been overseen by Novoselic, Grohl, and Cobain\'s widow Courtney Love.
+        The posthumous live album MTV Unplugged in New York (1994) won Best Alternative Music Performance at the 1996 Grammy Awards.
+        \n \n
+        By 2009, record sales were over 75 million worldwide, making them one of the best-selling bands of all time. During their three years as a mainstream act,
+        Nirvana received an American Music Award, Brit Award and Grammy Award, as well as seven MTV Video Music Awards and two NME Awards.
+        They achieved five number-one hits on the Billboard Alternative Songs chart and four number-one albums on the Billboard 200. In 2004,
+        Rolling Stone named  among the 100 greatest artists of all time. They were inducted into the Rock and Roll Hall of Fame in their first year of eligibility in 2014.
+    </string>
 </resources>
