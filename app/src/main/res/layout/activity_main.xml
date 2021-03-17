@@ -1,18 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.textandscrolling.MainActivity">
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/article_heading"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/purple_700"
+        android:background="@color/teal_200"
         android:padding="@dimen/padding_regular"
         android:text="@string/article_title"
-        android:textAppearance=
-            "@android:style/TextAppearance.DeviceDefault.Large"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
         android:textColor="@android:color/white"
         android:textStyle="bold" />
 
@@ -32,19 +32,27 @@
                 android:layout_height="wrap_content"
                 android:padding="@dimen/padding_regular"
                 android:text="@string/article_subtitle"
-                android:textAppearance=
-                    "@android:style/TextAppearance.DeviceDefault" />
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/article"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_regular"
                 android:autoLink="web"
+                android:justificationMode="inter_word"
                 android:lineSpacingExtra="@dimen/line_spacing"
-                android:padding="@dimen/padding_regular"
                 android:text="@string/article_text" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_regular"
+                android:text="@string/add_comment"
+                android:background="@android:color/darker_gray"
+                android:padding="@dimen/padding_regular"
+                android:textColor="@color/white"
+                />
         </LinearLayout>
-
     </ScrollView>
-
 </RelativeLayout>
